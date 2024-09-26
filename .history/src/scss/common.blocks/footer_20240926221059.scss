@@ -20,9 +20,11 @@
 
 	}
 
-	&__bold {
-		display: flex;
-
+	&__block {
+		@media(min-width:768px){
+			display: flex;
+		}
+	
 	}
 
 	&__box {

@@ -21,8 +21,10 @@
 	}
 
 	&__bold {
-		display: flex;
-
+		@media(min-width:768px){
+			display: flex;
+		}
+	
 	}
 
 	&__box {
