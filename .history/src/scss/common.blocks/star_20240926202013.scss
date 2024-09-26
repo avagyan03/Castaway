@@ -1,0 +1,103 @@
+.star {
+    background: var(--dark-color);
+    padding-bottom: 50px;
+    // .star__container
+
+    &__container {}
+
+    // .star__content
+
+    &__content {
+        margin: 0;;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+        gap: 20px;
+        justify-content: center;
+
+        // @media(max-width:768px){
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: start;
+        // }
+
+    }
+
+    // .star__box
+
+    &__box {
+        background: var(--text-color);
+        max-width: 420px;
+        padding: 50px 50px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px;
+        margin-bottom: 20px;
+        @media(max-width:768px){
+            padding: 5px 10px;
+         
+           
+        }
+
+
+    }
+ 
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 120%;
+        color: var(--light-color);
+        margin: 0;
+        margin-bottom: 20px;
+        @media(max-width:768px){
+            @include media-adaptiv-font(36,30);
+        }
+    }
+
+    &__svg {
+        max-width: 18px;
+        min-height: 17px;
+    }
+
+    &__block {
+        display: flex;
+        gap: 20px;
+        @media(max-width:768px){
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__span {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: var(--block-color);
+    }
+
+    &__text-page {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 120%;
+        color: var(--light-color);
+        min-width: 395px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    &__text-pages{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 120%;
+        color: var(--light-color);
+        min-width: 395px;
+        margin: 0;
+        margin-bottom: 20px;
+
+    }
+
+}

@@ -1,0 +1,45 @@
+.header {
+    background-color: var(--dark-color) !important;
+    box-shadow: none !important;
+    
+    // .header__container
+
+    &__container {
+        max-width: var(--container-width) !important;
+        padding: 45px 15px !important;
+
+    }
+
+
+    // .header__logo
+
+    &__logo {
+        color: var(--light-color);
+        font-family: var(--font-family) !important;
+        font-size: 30px;
+        text-decoration: none;
+     
+    }
+}
+
+
+
+.burger {
+
+    // .burger__line
+
+    &__line {
+
+        // .burger__line_top
+
+        &_top {}
+
+        // .burger__line_middle
+
+        &_middle {}
+
+        // .burger__line_bottom
+
+        &_bottom {}
+    }
+}

@@ -1,0 +1,25 @@
+
+  .hero {
+
+		// .hero__container
+
+		&__container {
+      background: var(--text-color);
+		}
+    &__title{
+      
+    }
+
+		// .hero__content
+
+		&__content {
+		}
+
+		// .hero__img
+
+		&__img {
+      // background-image: url(img/hero.png);
+		}
+}
+
+

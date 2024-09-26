@@ -1,0 +1,40 @@
+.footer {
+	padding-top: 50px;
+	background-color: var(--dark-color);
+	padding: 100px 70px;
+
+	// .footer__container
+
+	&__container {}
+
+	// .footer__content
+
+	&__content {
+		display: flex;
+		gap: 240px
+	}
+
+	&__box {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__text {
+		font-family: var(--font-family);
+		font-weight: 400;
+		font-size: 17px;
+		line-height: 159%;
+		color: var(--light-color);
+		margin: 0;
+	}
+
+	// .footer__title
+
+	&__title {
+		color: var(--light-color);
+		font-family: var(--font-family);
+		font-size: 40px;
+
+
+	}
+}

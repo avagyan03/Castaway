@@ -1,0 +1,58 @@
+.header {
+    background-color: var(--text-color);
+
+
+
+    // .header__container
+
+    &__container {
+    }
+
+    // .header__logo
+
+    &__logo {
+        color: var(--text-color);
+        text-decoration: none;
+        font-family: var(--font-family);
+        font-size: 30px;
+    }
+}
+.nav {
+
+    // .nav__list
+
+    &__list {
+    }
+
+    // .nav__item
+
+    &__item {
+    }
+
+    // .nav__link
+
+    &__link {
+    }
+}
+.burger {
+
+    // .burger__line
+
+    &__line {
+
+        // .burger__line_top
+
+        &_top {
+        }
+
+        // .burger__line_middle
+
+        &_middle {
+        }
+
+        // .burger__line_bottom
+
+        &_bottom {
+        }
+    }
+}

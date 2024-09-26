@@ -1,0 +1,50 @@
+.hero {
+  // background-color: var(--text-color);
+  margin-bottom: ;
+
+  // .hero__container
+
+  &__container {}
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 43px;
+    margin-top: 26px;;
+  }
+
+  // .hero__content
+
+  &__content {}
+
+  // .hero__img
+
+  &__img {
+    // background-image: url(img/hero.png);
+  }
+
+  .nav {
+
+    // .nav__list
+
+    &__list {}
+
+    // .nav__item
+
+    &__item {}
+
+    // .nav__link
+
+    &__link {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 159%;
+      color: #fff;
+      list-style: none;
+      text-decoration: none;
+    }
+  }
+
+}

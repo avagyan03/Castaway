@@ -1,0 +1,66 @@
+// .header {
+//   padding: 15px 0;
+//   background-color: grey;
+//   &__container {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     @include burger-X(40px, 40px, 2px, #000, 1200px);
+//   }
+//   @media (min-width: 768px) {
+//     background-color: green;
+//   }
+// }
+.header {
+
+  // .header__container
+
+  &__container {
+  }
+
+.nav {
+
+
+  // .nav__list
+
+  &__list {
+
+   
+  }
+
+  // .nav__item
+
+  &__item {
+    
+  }
+
+  // .nav__link
+
+  &__link {
+    list-style: none;
+    text-decoration: none;
+  }
+}
+.burger {
+
+  // .burger__line
+
+  &__line {
+
+    // .burger__line_top
+
+    &_top {
+    }
+
+    // .burger__line_middle
+
+    &_middle {
+    }
+
+    // .burger__line_bottom
+
+    &_bottom {
+    }
+  }
+}
+}

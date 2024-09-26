@@ -1,0 +1,26 @@
+.star {
+    background: var(--dark-color);
+    padding-top: 50px;;
+
+    // .star__container
+
+    &__container {
+    }
+
+    // .star__content
+
+    &__content {
+    }
+
+    // .star__box
+
+    &__box {
+        background: var(--text-color);
+        max-width: 420px;
+        min-height: 320px;
+        padding: 54px 120px;
+    }
+    &__text{
+        
+    }
+}

@@ -1,0 +1,114 @@
+.about {
+    padding-top: 130px;
+    background-color: var(--dark-color);
+    padding: 0px 70px;
+
+    // .about__container
+
+    &__container {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 60px;
+        margin-bottom: 100px;
+    }
+
+    // .about__content
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    // .about__title
+
+    &__arrow {
+        margin-bottom: 20px;
+        max-width: 112px;
+    }
+
+
+    &__boxs {
+        display: flex;
+        gap: 80px;
+        background-color: var(--text-color);
+        min-width: 1300px;
+        min-height: 390px;
+        border-radius: 20px;
+        padding: 60px 60px;
+    }
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 150%;
+        color: var(--block-color);
+        max-width: 556px;
+    }
+
+
+    &__box-span {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: var(--accent-color);
+    }
+
+    &__box-title {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 110%;
+        letter-spacing: 0.04em;
+        color: var(--light-color);
+        max-width: 430px;
+        ;
+    }
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 65px;
+        line-height: 122%;
+        letter-spacing: 0.04em;
+        color: var(--light-color);
+    }
+
+    &__span {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: var(--accent-color);
+
+    }
+
+    &__input {
+        width: 100%;
+        background-color: var(--dark-color);
+        min-height: 80px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: var(--light-color);
+        padding: 30px 20px;
+
+    }
+
+    &__box {
+        padding: 0px 60px;;
+        display: flex;
+        flex-direction: column;
+        max-width: 520px;
+
+
+
+
+    }
+
+}
+
+.container {}

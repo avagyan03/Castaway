@@ -1,0 +1,28 @@
+.about {
+    padding-top: 130px;
+    ;
+    background-color: var(--dark-color);
+
+    // .about__container
+
+    &__container {}
+
+    // .about__content
+
+    &__content {}
+
+    // .about__title
+
+    &__arrow {
+    }
+
+    &__span {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: var(--accent-color);
+    }
+}
+
+.container {}

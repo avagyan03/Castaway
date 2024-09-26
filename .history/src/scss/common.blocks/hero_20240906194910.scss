@@ -1,0 +1,30 @@
+.hero {
+    background-color: var(--dark-color);
+
+    // .hero__container
+
+    &__container {}
+
+    // .hero__content
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__svg {
+        //    max-width:  100%;
+        height: 3px;
+    }
+
+    // .hero__img
+
+    &__img {}
+
+    &__title-line {
+        display: inline-block;
+        max-width: 50px;
+    }
+}
+
+.container {}

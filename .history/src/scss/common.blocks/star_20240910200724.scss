@@ -1,0 +1,22 @@
+.star {
+    background: var(--dark-color);
+    padding-top: 50px;;
+
+    // .star__container
+
+    &__container {
+    }
+
+    // .star__content
+
+    &__content {
+    }
+
+    // .star__box
+
+    &__box {
+        background: var(--text-color);
+    }
+}
+.container {
+}

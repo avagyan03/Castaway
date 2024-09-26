@@ -1,0 +1,25 @@
+.nav {
+
+    // .nav__list
+
+    &__list {}
+
+    // .nav__item
+
+    &__item {}
+
+    // .nav__link
+
+    &__link {
+        color: var(--light-color) !important;
+        font-family: var(--font-family) !important;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 159%;
+        
+    }
+
+    &__link:hover {
+        color: var(--accent-color) !important;
+    }
+}
