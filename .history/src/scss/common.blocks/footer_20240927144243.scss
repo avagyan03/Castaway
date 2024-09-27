@@ -14,20 +14,15 @@
 
 	&__content {
 		display: flex;
-		justify-content: space-between;
 		gap:50px;
 
-		@media(max-width:768px) {
-			display: block;
-			max-width: 300px;;
-		}
+		@media(max-width:768px) {}
 
 	}
 
 	&__bold {
 		display: flex;
-		padding: 20px 0px;
-		gap: 30px;
+		gap: 100px;
 
 	}
 
@@ -60,7 +55,12 @@
 
 	}
 	&__social{
+		@media(max-width:768px){
+			display: flex;
+			align-items: start;
 
+		}
+	
 	}
 
 	&__block-photo {

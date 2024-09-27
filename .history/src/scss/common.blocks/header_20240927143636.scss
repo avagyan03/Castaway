@@ -30,16 +30,15 @@
                 
                 &__link {
                     color: var(--text-color);
-                    font-size: 30px;;
                 }
             }
 
-            &__list {
-                @media(max-width:768px) {
-                    padding: 30px 0px;;
-                }
+            // &__list {
+            //     @media(max-width:768px) {
+            //         padding: 30px 0px;;
+            //     }
 
-            }
+            // }
 
         // }
     }

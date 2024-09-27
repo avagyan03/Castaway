@@ -15,19 +15,14 @@
 	&__content {
 		display: flex;
 		justify-content: space-between;
-		gap:50px;
 
-		@media(max-width:768px) {
-			display: block;
-			max-width: 300px;;
-		}
+		@media(max-width:768px) {}
 
 	}
 
 	&__bold {
 		display: flex;
-		padding: 20px 0px;
-		gap: 30px;
+		justify-content: space-between;
 
 	}
 
@@ -57,9 +52,6 @@
 	&__img {
 		width: 24px;
 		height: 24px;
-
-	}
-	&__social{
 
 	}
 

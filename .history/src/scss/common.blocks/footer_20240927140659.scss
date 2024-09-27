@@ -17,17 +17,13 @@
 		justify-content: space-between;
 		gap:50px;
 
-		@media(max-width:768px) {
-			display: block;
-			max-width: 300px;;
-		}
+		@media(max-width:768px) {}
 
 	}
 
 	&__bold {
 		display: flex;
-		padding: 20px 0px;
-		gap: 30px;
+		gap: 100px;
 
 	}
 
@@ -60,7 +56,10 @@
 
 	}
 	&__social{
-
+		@media(min-width:768px){
+			display: flex;
+			flex-direction: column;
+		}
 	}
 
 	&__block-photo {
