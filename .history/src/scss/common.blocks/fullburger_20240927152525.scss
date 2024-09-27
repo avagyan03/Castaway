@@ -141,7 +141,7 @@ body.dis-scroll {
 }
 
 .fullburger-item_active>.fullburger-link {
-    color: #e21607;
+    color: var(--accent-color);
 }
 
 .dropdown {
@@ -240,7 +240,7 @@ body.dis-scroll {
     }
 
     .fullburger-link:hover {
-        color: var(--accent-color);
+        color: #e21607
     }
 }
 
